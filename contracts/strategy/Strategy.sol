@@ -1,9 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.12;
 
-// TODO: REMOVE
-import "hardhat/console.sol";
-
 import "../interfaces/IStrategy.sol";
 import "../interfaces/IVault.sol";
 

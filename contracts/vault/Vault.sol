@@ -1,19 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.12;
 
-// TODO: REMOVE
-import "hardhat/console.sol";
-
 import "../interfaces/IStrategy.sol";
 import "../interfaces/IChainLink.sol";
 
-// import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-// import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/SafeBEP20.sol";
 import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/BEP20.sol";
 import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/IBEP20.sol";
-// import "@openzeppelin/contracts/math/SafeMath.sol";
-// import "@openzeppelin/contracts/access/Ownable.sol";
+
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
 contract Vault is BEP20("daoETH", "DAO ANTI IL ETH"), ReentrancyGuard {
