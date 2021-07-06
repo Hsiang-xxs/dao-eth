@@ -1,0 +1,11 @@
+node_modules
+.openzeppelin
+.vscode
+
+#Hardhat files
+cache
+artifacts
+secrets.json
+.env
+scripts/2_test.js
+scripts/ETH.json
